@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-
 const fs = require("fs");
 const ics = require("ics");
 const yargs = require("yargs");
