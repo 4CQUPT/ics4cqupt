@@ -1,13 +1,13 @@
 # ics4cqupt
 
-Generate .ics file for CQUPT.
+Generate .ics file for CQUPT
 
 ### Usage
 
 ```shell
 yarn global add ics4cqupt
 # or
-npm install -i ics4cqupt
+npm install -g ics4cqupt
 # then
 ics4cqupt -i 2018210000
 # more
