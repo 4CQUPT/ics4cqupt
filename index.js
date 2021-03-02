@@ -70,7 +70,7 @@ function generate() {
           return;
         }
         console.log("生成 ics 文件成功");
-        fs.writeFileSync(`${__dirname}/${argv.id}.ics`, value);
+        fs.writeFileSync(`${process.cwd()}/${argv.id}.ics`, value);
       }
       else {
         console.log("获取课表失败");
