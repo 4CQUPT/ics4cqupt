@@ -1,32 +1,27 @@
 {
-  "name": "cqupt-ics",
-  "version": "1.0.0",
-  "description": "重庆邮电大学课表ics文件生成器",
-  "main": "index.js",
+  "name": "ics4cqupt",
+  "version": "0.0.1",
+  "description": "生成 ICS 课表 for CQUPT ",
+  "repository": "git@github.com:ourongxing/ics4cqupt.git",
+  "author": "ourongxing <orongxing@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Ezekiel-z6/cqupt-ics.git"
+  "bin": {
+    "ics4cqupt": "index.js"
   },
+  "preferGlobal": true,
   "keywords": [
     "cqupt",
     "ics",
     "timetable"
   ],
-  "bin": "cqupt-ics",
-  "author": "IsLand",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ezekiel-z6/cqupt-ics/issues"
-  },
-  "homepage": "https://github.com/Ezekiel-z6/cqupt-ics#readme",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "cheerio": "^1.0.0-rc.3",
-    "fs": "0.0.1-security",
+    "fs": "^0.0.1-security",
     "ics": "^2.24.0",
-    "request": "^2.88.2"
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "yargs": "^16.2.0"
   }
 }
