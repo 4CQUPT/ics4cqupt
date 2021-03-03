@@ -1,6 +1,6 @@
 {
   "name": "ics4cqupt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate .ics file for CQUPT",
   "repository": "git@github.com:ourongxing/ics4cqupt.git",
   "author": "ourongxing <orongxing@gmail.com>",
@@ -21,7 +21,6 @@
     "fs": "^0.0.1-security",
     "ics": "^2.24.0",
     "node-fetch": "^2.6.1",
-    "request": "^2.88.2",
     "yargs": "^16.2.0"
   }
 }
