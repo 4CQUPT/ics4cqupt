@@ -14,7 +14,7 @@ ics4cqupt -i 2018210000
 ics4cqupt -h
 ```
 
-### Thank
+### Thanks
 
 - [ics](https://github.com/adamgibbons/ics)
 - [cqupt-ics](https://github.com/IsLand-x/cqupt-ics)
