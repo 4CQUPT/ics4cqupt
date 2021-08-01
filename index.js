@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
+
 const fs = require("fs");
 const ics = require("ics");
 const yargs = require("yargs");
@@ -51,7 +52,7 @@ generate();
 
 // 生成课表函数
 function generate() {
-  fetch("https://cyxbsmobile.redrock.team/api/kebiao", {
+  fetch("https://be-prod.redrock.team/magipoke-jwzx/kebiao", {
     method: "post",
     body: "stu_num=" + argv.id,
     headers: {
